@@ -28,7 +28,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 40%;
     padding: 10px;
 }
 
@@ -52,7 +52,7 @@ h2 {
     }
 
     #top-image {
-        width: 150px; /* Even smaller logo for compact devices */
+        width: 200px;
     }
 
     h2 {
