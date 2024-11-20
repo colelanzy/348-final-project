@@ -100,3 +100,7 @@ button {
 button:hover {
     background-color: #9ea4a6;
 }
+
+footer {
+    padding-top: 30px;
+}

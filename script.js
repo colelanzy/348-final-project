@@ -1,6 +1,6 @@
-// Initialize EmailJS with your public key
+// Initialize EmailJS with public key
 (function() {
-    emailjs.init("VcM2ayuWHtwKlqO-V"); // Replace with your actual public key
+    emailjs.init("VcM2ayuWHtwKlqO-V");
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
@@ -17,7 +17,8 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         name: name,
         email: email,
         subject: subject,
-        message: message
+        message: message,
+        from_email: email
     }).then(
         function(response) {
             document.getElementById("status-message").textContent = "Your message has been sent successfully!";
