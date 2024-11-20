@@ -43,3 +43,50 @@ p {
 h2 {
     text-align: center;
 }
+
+
+
+
+@media (max-width: 768px) {
+    #top-image {
+        width: 100px; /* Reduce logo size on small screens */
+    }
+
+    .nav-item {
+        display: block; /* Stack navigation items vertically */
+        margin: 5px 0; /* Add spacing between each item */
+        font-size: 14px; /* Reduce font size for better readability */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller heading size for mobile */
+    }
+
+    p {
+        font-size: 13px; /* Smaller paragraph text for mobile */
+        padding: 0 10px; /* Add padding for better readability */
+    }
+}
+
+/* Additional styles for very small screens (e.g., phones) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px; /* Reduce overall padding on very small screens */
+    }
+
+    #top-image {
+        width: 80px; /* Even smaller logo for compact devices */
+    }
+
+    h2 {
+        font-size: 18px; /* Further reduce heading size */
+    }
+
+    .nav-item {
+        font-size: 12px; /* Reduce font size for very small screens */
+    }
+
+    p {
+        font-size: 12px; /* Make text more compact */
+    }
+}
