@@ -1,6 +1,6 @@
-// Initialize EmailJS
+// Initialize EmailJS with your public key
 (function() {
-    emailjs.init("VcM2ayuWHtwKlqO-V");  // Replace with your public API key from EmailJS
+    emailjs.init("VcM2ayuWHtwKlqO-V"); // Replace with your actual public key
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
