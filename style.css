@@ -110,10 +110,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 h3 {
     text-align: center;
     margin-top: 5%;
+}
+
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
