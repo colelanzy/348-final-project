@@ -44,30 +44,6 @@ h2 {
     text-align: center;
 }
 
-
-
-
-@media (max-width: 768px) {
-    #top-image {
-        width: 100px; /* Reduce logo size on small screens */
-    }
-
-    .nav-item {
-        display: block; /* Stack navigation items vertically */
-        margin: 5px 0; /* Add spacing between each item */
-        font-size: 14px; /* Reduce font size for better readability */
-    }
-
-    h2 {
-        font-size: 20px; /* Smaller heading size for mobile */
-    }
-
-    p {
-        font-size: 13px; /* Smaller paragraph text for mobile */
-        padding: 0 10px; /* Add padding for better readability */
-    }
-}
-
 /* Additional styles for very small screens (e.g., phones) */
 @media (max-width: 480px) {
     body {
