@@ -21,7 +21,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         from_email: email
     }).then(
         function(response) {
-            document.getElementById("status-message").textContent = "Your message has been sent successfully!";
+            document.getElementById("status-message").textContent = "Your message has been sent!";
             document.getElementById("status-message").style.color = "green";
             console.log("SUCCESS", response);
         },

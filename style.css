@@ -45,7 +45,7 @@ h2 {
     margin-top: 4%;
 }
 
-/* Additional styles for very small screens (e.g., phones) */
+
 @media (max-width: 480px) {
     body {
         margin-left: 2%;
@@ -57,15 +57,15 @@ h2 {
     }
 
     h2 {
-        font-size: 18px; /* Further reduce heading size */
+        font-size: 18px;
     }
 
     .nav-item {
-        font-size: 12px; /* Reduce font size for very small screens */
+        font-size: 12px;
     }
 
     p {
-        font-size: 12px; /* Make text more compact */
+        font-size: 12px;
     }
 
     li {
